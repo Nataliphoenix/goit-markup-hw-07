@@ -1,0 +1,33 @@
+.section-hero {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      max-width: 1600px;
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto;
+
+      background-image: linear-gradient(to left, $hero-gradient-color, $hero-gradient-color),
+            url('../images/img_14.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: $footer-background-color;
+}
+
+.hero {
+      text-align: center;
+}
+
+.hero_title {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      max-width: 696px;
+
+      color: $hero-text-color;
+
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.36;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+}
